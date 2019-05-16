@@ -8,6 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		BE0D28E9217D77A80055AE23 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D28E8217D77A80055AE23 /* main.cpp */; };
+		BE0D294E217D78160055AE23 /* SmeOrDlAddress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D28F1217D78100055AE23 /* SmeOrDlAddress.cpp */; };
+		BE0D294F217D78160055AE23 /* MessageDetails.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D28F3217D78100055AE23 /* MessageDetails.cpp */; };
+		BE0D2950217D78160055AE23 /* BindRespDummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D28F4217D78100055AE23 /* BindRespDummy.cpp */; };
+		BE0D2951217D78160055AE23 /* QueryBroadcastSm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D28F5217D78100055AE23 /* QueryBroadcastSm.cpp */; };
+		BE0D2952217D78160055AE23 /* BindDummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D28F9217D78100055AE23 /* BindDummy.cpp */; };
+		BE0D2953217D78160055AE23 /* SmppHeader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D28FC217D78100055AE23 /* SmppHeader.cpp */; };
+		BE0D2954217D78160055AE23 /* SmppPdu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D28FE217D78100055AE23 /* SmppPdu.cpp */; };
+		BE0D2955217D78160055AE23 /* AlertNotification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D28FF217D78100055AE23 /* AlertNotification.cpp */; };
+		BE0D2956217D78160055AE23 /* DeliverSm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2900217D78100055AE23 /* DeliverSm.cpp */; };
+		BE0D2957217D78160055AE23 /* SmppBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2901217D78100055AE23 /* SmppBody.cpp */; };
+		BE0D2958217D78160055AE23 /* BroadcastSm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2903217D78100055AE23 /* BroadcastSm.cpp */; };
+		BE0D2959217D78160055AE23 /* DistributionListAddress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2904217D78100055AE23 /* DistributionListAddress.cpp */; };
+		BE0D295A217D78160055AE23 /* EsmClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2907217D78100055AE23 /* EsmClass.cpp */; };
+		BE0D295B217D78160055AE23 /* SubmitMultiResp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2908217D78110055AE23 /* SubmitMultiResp.cpp */; };
+		BE0D295C217D78160055AE23 /* CancelBroadcastSm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2909217D78110055AE23 /* CancelBroadcastSm.cpp */; };
+		BE0D295D217D78160055AE23 /* QuerySm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D290B217D78110055AE23 /* QuerySm.cpp */; };
+		BE0D295E217D78160055AE23 /* DataSmResp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D290D217D78110055AE23 /* DataSmResp.cpp */; };
+		BE0D295F217D78160055AE23 /* SubmitMulti.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2911217D78110055AE23 /* SubmitMulti.cpp */; };
+		BE0D2960217D78160055AE23 /* CancelSm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2913217D78110055AE23 /* CancelSm.cpp */; };
+		BE0D2961217D78160055AE23 /* BroadcastSmResp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2919217D78120055AE23 /* BroadcastSmResp.cpp */; };
+		BE0D2962217D78160055AE23 /* TagLengthValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D291C217D78120055AE23 /* TagLengthValue.cpp */; };
+		BE0D2963217D78160055AE23 /* ReplaceSm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D291E217D78120055AE23 /* ReplaceSm.cpp */; };
+		BE0D2964217D78160055AE23 /* TypeOfNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2923217D78130055AE23 /* TypeOfNumber.cpp */; };
+		BE0D2965217D78160055AE23 /* NumberingPlanIndicator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2929217D78130055AE23 /* NumberingPlanIndicator.cpp */; };
+		BE0D2966217D78160055AE23 /* QueryBroadcastSmResp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D292B217D78130055AE23 /* QueryBroadcastSmResp.cpp */; };
+		BE0D2967217D78160055AE23 /* QueryMsgDetails.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D292F217D78140055AE23 /* QueryMsgDetails.cpp */; };
+		BE0D2968217D78160055AE23 /* Outbind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2931217D78140055AE23 /* Outbind.cpp */; };
+		BE0D2969217D78160055AE23 /* ParamRetrieveResp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2932217D78140055AE23 /* ParamRetrieveResp.cpp */; };
+		BE0D296A217D78160055AE23 /* DeliverSmResp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2934217D78140055AE23 /* DeliverSmResp.cpp */; };
+		BE0D296B217D78160055AE23 /* QueryMsgDetailsResp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2937217D78140055AE23 /* QueryMsgDetailsResp.cpp */; };
+		BE0D296C217D78160055AE23 /* QuerySmResp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2938217D78140055AE23 /* QuerySmResp.cpp */; };
+		BE0D296D217D78160055AE23 /* DestinationAddress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2939217D78140055AE23 /* DestinationAddress.cpp */; };
+		BE0D296E217D78160055AE23 /* CommandStatus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D293B217D78150055AE23 /* CommandStatus.cpp */; };
+		BE0D296F217D78160055AE23 /* SmppUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D293D217D78150055AE23 /* SmppUtilities.cpp */; };
+		BE0D2970217D78160055AE23 /* UnsuccessSme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D293E217D78150055AE23 /* UnsuccessSme.cpp */; };
+		BE0D2971217D78160055AE23 /* ParamRetrieve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D293F217D78150055AE23 /* ParamRetrieve.cpp */; };
+		BE0D2972217D78160055AE23 /* SmeAddress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2941217D78150055AE23 /* SmeAddress.cpp */; };
+		BE0D2973217D78160055AE23 /* QueryLastMsgsResp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2942217D78150055AE23 /* QueryLastMsgsResp.cpp */; };
+		BE0D2974217D78160055AE23 /* QueryLastMsgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2945217D78150055AE23 /* QueryLastMsgs.cpp */; };
+		BE0D2975217D78160055AE23 /* CommandId.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2946217D78150055AE23 /* CommandId.cpp */; };
+		BE0D2976217D78160055AE23 /* DataSm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2948217D78160055AE23 /* DataSm.cpp */; };
+		BE0D2977217D78160055AE23 /* SubmitSm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D294C217D78160055AE23 /* SubmitSm.cpp */; };
+		BE0D2978217D78160055AE23 /* SubmitSmResp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D294D217D78160055AE23 /* SubmitSmResp.cpp */; };
+		BE0D297F217D78BA0055AE23 /* UnsignedInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D297C217D78BA0055AE23 /* UnsignedInteger.cpp */; };
+		BE0D2980217D78BA0055AE23 /* UnsignedByte.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D297E217D78BA0055AE23 /* UnsignedByte.cpp */; };
+		BE0D2986217D78E10055AE23 /* numofprocessors.c in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2983217D78E00055AE23 /* numofprocessors.c */; };
+		BE0D2987217D78E10055AE23 /* endianSwap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE0D2985217D78E10055AE23 /* endianSwap.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +72,108 @@
 /* Begin PBXFileReference section */
 		BE0D28E5217D77A80055AE23 /* macsmpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = macsmpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0D28E8217D77A80055AE23 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BE0D28F1217D78100055AE23 /* SmeOrDlAddress.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmeOrDlAddress.cpp; sourceTree = "<group>"; };
+		BE0D28F2217D78100055AE23 /* DeliverSm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliverSm.h; sourceTree = "<group>"; };
+		BE0D28F3217D78100055AE23 /* MessageDetails.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MessageDetails.cpp; sourceTree = "<group>"; };
+		BE0D28F4217D78100055AE23 /* BindRespDummy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BindRespDummy.cpp; sourceTree = "<group>"; };
+		BE0D28F5217D78100055AE23 /* QueryBroadcastSm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QueryBroadcastSm.cpp; sourceTree = "<group>"; };
+		BE0D28F6217D78100055AE23 /* BindRespDummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindRespDummy.h; sourceTree = "<group>"; };
+		BE0D28F7217D78100055AE23 /* CancelBroadcastSm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancelBroadcastSm.h; sourceTree = "<group>"; };
+		BE0D28F8217D78100055AE23 /* QueryMsgDetailsResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryMsgDetailsResp.h; sourceTree = "<group>"; };
+		BE0D28F9217D78100055AE23 /* BindDummy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BindDummy.cpp; sourceTree = "<group>"; };
+		BE0D28FA217D78100055AE23 /* QuerySmResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuerySmResp.h; sourceTree = "<group>"; };
+		BE0D28FB217D78100055AE23 /* AlertNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertNotification.h; sourceTree = "<group>"; };
+		BE0D28FC217D78100055AE23 /* SmppHeader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmppHeader.cpp; sourceTree = "<group>"; };
+		BE0D28FD217D78100055AE23 /* SmppBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmppBody.h; sourceTree = "<group>"; };
+		BE0D28FE217D78100055AE23 /* SmppPdu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmppPdu.cpp; sourceTree = "<group>"; };
+		BE0D28FF217D78100055AE23 /* AlertNotification.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AlertNotification.cpp; sourceTree = "<group>"; };
+		BE0D2900217D78100055AE23 /* DeliverSm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeliverSm.cpp; sourceTree = "<group>"; };
+		BE0D2901217D78100055AE23 /* SmppBody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmppBody.cpp; sourceTree = "<group>"; };
+		BE0D2902217D78100055AE23 /* MessageDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDetails.h; sourceTree = "<group>"; };
+		BE0D2903217D78100055AE23 /* BroadcastSm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BroadcastSm.cpp; sourceTree = "<group>"; };
+		BE0D2904217D78100055AE23 /* DistributionListAddress.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DistributionListAddress.cpp; sourceTree = "<group>"; };
+		BE0D2905217D78100055AE23 /* SmppUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmppUtilities.h; sourceTree = "<group>"; };
+		BE0D2906217D78100055AE23 /* BindTransmitterResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindTransmitterResp.h; sourceTree = "<group>"; };
+		BE0D2907217D78100055AE23 /* EsmClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EsmClass.cpp; sourceTree = "<group>"; };
+		BE0D2908217D78110055AE23 /* SubmitMultiResp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubmitMultiResp.cpp; sourceTree = "<group>"; };
+		BE0D2909217D78110055AE23 /* CancelBroadcastSm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CancelBroadcastSm.cpp; sourceTree = "<group>"; };
+		BE0D290A217D78110055AE23 /* SubmitMulti.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitMulti.h; sourceTree = "<group>"; };
+		BE0D290B217D78110055AE23 /* QuerySm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuerySm.cpp; sourceTree = "<group>"; };
+		BE0D290C217D78110055AE23 /* BroadcastSm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BroadcastSm.h; sourceTree = "<group>"; };
+		BE0D290D217D78110055AE23 /* DataSmResp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataSmResp.cpp; sourceTree = "<group>"; };
+		BE0D290E217D78110055AE23 /* UnsuccessSme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnsuccessSme.h; sourceTree = "<group>"; };
+		BE0D290F217D78110055AE23 /* BindTransceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindTransceiver.h; sourceTree = "<group>"; };
+		BE0D2910217D78110055AE23 /* CommandStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandStatus.h; sourceTree = "<group>"; };
+		BE0D2911217D78110055AE23 /* SubmitMulti.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubmitMulti.cpp; sourceTree = "<group>"; };
+		BE0D2912217D78110055AE23 /* Outbind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Outbind.h; sourceTree = "<group>"; };
+		BE0D2913217D78110055AE23 /* CancelSm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CancelSm.cpp; sourceTree = "<group>"; };
+		BE0D2914217D78110055AE23 /* BindReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindReceiver.h; sourceTree = "<group>"; };
+		BE0D2915217D78110055AE23 /* SubmitSm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitSm.h; sourceTree = "<group>"; };
+		BE0D2916217D78120055AE23 /* SmppHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmppHeader.h; sourceTree = "<group>"; };
+		BE0D2917217D78120055AE23 /* QuerySm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuerySm.h; sourceTree = "<group>"; };
+		BE0D2918217D78120055AE23 /* SmppPdu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmppPdu.h; sourceTree = "<group>"; };
+		BE0D2919217D78120055AE23 /* BroadcastSmResp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BroadcastSmResp.cpp; sourceTree = "<group>"; };
+		BE0D291A217D78120055AE23 /* DestinationAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationAddress.h; sourceTree = "<group>"; };
+		BE0D291B217D78120055AE23 /* SmeOrDlAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmeOrDlAddress.h; sourceTree = "<group>"; };
+		BE0D291C217D78120055AE23 /* TagLengthValue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TagLengthValue.cpp; sourceTree = "<group>"; };
+		BE0D291D217D78120055AE23 /* CancelSm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancelSm.h; sourceTree = "<group>"; };
+		BE0D291E217D78120055AE23 /* ReplaceSm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReplaceSm.cpp; sourceTree = "<group>"; };
+		BE0D291F217D78120055AE23 /* DistributionListAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistributionListAddress.h; sourceTree = "<group>"; };
+		BE0D2920217D78120055AE23 /* optionalParameterTagDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = optionalParameterTagDef.h; sourceTree = "<group>"; };
+		BE0D2921217D78120055AE23 /* QueryBroadcastSm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryBroadcastSm.h; sourceTree = "<group>"; };
+		BE0D2922217D78130055AE23 /* DataSmResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSmResp.h; sourceTree = "<group>"; };
+		BE0D2923217D78130055AE23 /* TypeOfNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TypeOfNumber.cpp; sourceTree = "<group>"; };
+		BE0D2924217D78130055AE23 /* BindDummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindDummy.h; sourceTree = "<group>"; };
+		BE0D2925217D78130055AE23 /* TypeOfNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeOfNumber.h; sourceTree = "<group>"; };
+		BE0D2926217D78130055AE23 /* EsmClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EsmClass.h; sourceTree = "<group>"; };
+		BE0D2927217D78130055AE23 /* DeliverSmResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliverSmResp.h; sourceTree = "<group>"; };
+		BE0D2928217D78130055AE23 /* BindTransceiverResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindTransceiverResp.h; sourceTree = "<group>"; };
+		BE0D2929217D78130055AE23 /* NumberingPlanIndicator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumberingPlanIndicator.cpp; sourceTree = "<group>"; };
+		BE0D292A217D78130055AE23 /* BindReceiverResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindReceiverResp.h; sourceTree = "<group>"; };
+		BE0D292B217D78130055AE23 /* QueryBroadcastSmResp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QueryBroadcastSmResp.cpp; sourceTree = "<group>"; };
+		BE0D292C217D78130055AE23 /* SmeAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmeAddress.h; sourceTree = "<group>"; };
+		BE0D292D217D78130055AE23 /* SubmitSmResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitSmResp.h; sourceTree = "<group>"; };
+		BE0D292E217D78130055AE23 /* ParamRetrieveResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParamRetrieveResp.h; sourceTree = "<group>"; };
+		BE0D292F217D78140055AE23 /* QueryMsgDetails.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QueryMsgDetails.cpp; sourceTree = "<group>"; };
+		BE0D2930217D78140055AE23 /* QueryBroadcastSmResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryBroadcastSmResp.h; sourceTree = "<group>"; };
+		BE0D2931217D78140055AE23 /* Outbind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Outbind.cpp; sourceTree = "<group>"; };
+		BE0D2932217D78140055AE23 /* ParamRetrieveResp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParamRetrieveResp.cpp; sourceTree = "<group>"; };
+		BE0D2933217D78140055AE23 /* BroadcastSmResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BroadcastSmResp.h; sourceTree = "<group>"; };
+		BE0D2934217D78140055AE23 /* DeliverSmResp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeliverSmResp.cpp; sourceTree = "<group>"; };
+		BE0D2935217D78140055AE23 /* QueryLastMsgsResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryLastMsgsResp.h; sourceTree = "<group>"; };
+		BE0D2936217D78140055AE23 /* DataSm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSm.h; sourceTree = "<group>"; };
+		BE0D2937217D78140055AE23 /* QueryMsgDetailsResp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QueryMsgDetailsResp.cpp; sourceTree = "<group>"; };
+		BE0D2938217D78140055AE23 /* QuerySmResp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuerySmResp.cpp; sourceTree = "<group>"; };
+		BE0D2939217D78140055AE23 /* DestinationAddress.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DestinationAddress.cpp; sourceTree = "<group>"; };
+		BE0D293A217D78140055AE23 /* CommandId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandId.h; sourceTree = "<group>"; };
+		BE0D293B217D78150055AE23 /* CommandStatus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandStatus.cpp; sourceTree = "<group>"; };
+		BE0D293C217D78150055AE23 /* ParamRetrieve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParamRetrieve.h; sourceTree = "<group>"; };
+		BE0D293D217D78150055AE23 /* SmppUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmppUtilities.cpp; sourceTree = "<group>"; };
+		BE0D293E217D78150055AE23 /* UnsuccessSme.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UnsuccessSme.cpp; sourceTree = "<group>"; };
+		BE0D293F217D78150055AE23 /* ParamRetrieve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParamRetrieve.cpp; sourceTree = "<group>"; };
+		BE0D2940217D78150055AE23 /* BindTransmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindTransmitter.h; sourceTree = "<group>"; };
+		BE0D2941217D78150055AE23 /* SmeAddress.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmeAddress.cpp; sourceTree = "<group>"; };
+		BE0D2942217D78150055AE23 /* QueryLastMsgsResp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QueryLastMsgsResp.cpp; sourceTree = "<group>"; };
+		BE0D2943217D78150055AE23 /* NumberingPlanIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberingPlanIndicator.h; sourceTree = "<group>"; };
+		BE0D2944217D78150055AE23 /* TagLengthValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagLengthValue.h; sourceTree = "<group>"; };
+		BE0D2945217D78150055AE23 /* QueryLastMsgs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QueryLastMsgs.cpp; sourceTree = "<group>"; };
+		BE0D2946217D78150055AE23 /* CommandId.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandId.cpp; sourceTree = "<group>"; };
+		BE0D2947217D78160055AE23 /* QueryMsgDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryMsgDetails.h; sourceTree = "<group>"; };
+		BE0D2948217D78160055AE23 /* DataSm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataSm.cpp; sourceTree = "<group>"; };
+		BE0D2949217D78160055AE23 /* QueryLastMsgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryLastMsgs.h; sourceTree = "<group>"; };
+		BE0D294A217D78160055AE23 /* ReplaceSm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceSm.h; sourceTree = "<group>"; };
+		BE0D294B217D78160055AE23 /* SubmitMultiResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitMultiResp.h; sourceTree = "<group>"; };
+		BE0D294C217D78160055AE23 /* SubmitSm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubmitSm.cpp; sourceTree = "<group>"; };
+		BE0D294D217D78160055AE23 /* SubmitSmResp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubmitSmResp.cpp; sourceTree = "<group>"; };
+		BE0D2979217D784D0055AE23 /* pduExamples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pduExamples.h; sourceTree = "<group>"; };
+		BE0D297B217D78BA0055AE23 /* UnsignedByte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnsignedByte.h; sourceTree = "<group>"; };
+		BE0D297C217D78BA0055AE23 /* UnsignedInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UnsignedInteger.cpp; sourceTree = "<group>"; };
+		BE0D297D217D78BA0055AE23 /* UnsignedInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnsignedInteger.h; sourceTree = "<group>"; };
+		BE0D297E217D78BA0055AE23 /* UnsignedByte.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UnsignedByte.cpp; sourceTree = "<group>"; };
+		BE0D2982217D78E00055AE23 /* endianSwap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endianSwap.h; sourceTree = "<group>"; };
+		BE0D2983217D78E00055AE23 /* numofprocessors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = numofprocessors.c; sourceTree = "<group>"; };
+		BE0D2984217D78E10055AE23 /* numOfProcessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = numOfProcessors.h; sourceTree = "<group>"; };
+		BE0D2985217D78E10055AE23 /* endianSwap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = endianSwap.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +206,143 @@
 		BE0D28E7217D77A80055AE23 /* macsmpp */ = {
 			isa = PBXGroup;
 			children = (
+				BE0D2981217D78C60055AE23 /* utilities */,
+				BE0D297A217D789C0055AE23 /* types */,
+				BE0D2979217D784D0055AE23 /* pduExamples.h */,
+				BE0D28EF217D77BF0055AE23 /* protocols */,
 				BE0D28E8217D77A80055AE23 /* main.cpp */,
 			);
 			path = macsmpp;
+			sourceTree = "<group>";
+		};
+		BE0D28EF217D77BF0055AE23 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BE0D28F0217D77D40055AE23 /* smpp */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		BE0D28F0217D77D40055AE23 /* smpp */ = {
+			isa = PBXGroup;
+			children = (
+				BE0D28FF217D78100055AE23 /* AlertNotification.cpp */,
+				BE0D28FB217D78100055AE23 /* AlertNotification.h */,
+				BE0D28F9217D78100055AE23 /* BindDummy.cpp */,
+				BE0D2924217D78130055AE23 /* BindDummy.h */,
+				BE0D2914217D78110055AE23 /* BindReceiver.h */,
+				BE0D292A217D78130055AE23 /* BindReceiverResp.h */,
+				BE0D28F4217D78100055AE23 /* BindRespDummy.cpp */,
+				BE0D28F6217D78100055AE23 /* BindRespDummy.h */,
+				BE0D290F217D78110055AE23 /* BindTransceiver.h */,
+				BE0D2928217D78130055AE23 /* BindTransceiverResp.h */,
+				BE0D2940217D78150055AE23 /* BindTransmitter.h */,
+				BE0D2906217D78100055AE23 /* BindTransmitterResp.h */,
+				BE0D2903217D78100055AE23 /* BroadcastSm.cpp */,
+				BE0D290C217D78110055AE23 /* BroadcastSm.h */,
+				BE0D2919217D78120055AE23 /* BroadcastSmResp.cpp */,
+				BE0D2933217D78140055AE23 /* BroadcastSmResp.h */,
+				BE0D2909217D78110055AE23 /* CancelBroadcastSm.cpp */,
+				BE0D28F7217D78100055AE23 /* CancelBroadcastSm.h */,
+				BE0D2913217D78110055AE23 /* CancelSm.cpp */,
+				BE0D291D217D78120055AE23 /* CancelSm.h */,
+				BE0D2946217D78150055AE23 /* CommandId.cpp */,
+				BE0D293A217D78140055AE23 /* CommandId.h */,
+				BE0D293B217D78150055AE23 /* CommandStatus.cpp */,
+				BE0D2910217D78110055AE23 /* CommandStatus.h */,
+				BE0D2948217D78160055AE23 /* DataSm.cpp */,
+				BE0D2936217D78140055AE23 /* DataSm.h */,
+				BE0D290D217D78110055AE23 /* DataSmResp.cpp */,
+				BE0D2922217D78130055AE23 /* DataSmResp.h */,
+				BE0D2900217D78100055AE23 /* DeliverSm.cpp */,
+				BE0D28F2217D78100055AE23 /* DeliverSm.h */,
+				BE0D2934217D78140055AE23 /* DeliverSmResp.cpp */,
+				BE0D2927217D78130055AE23 /* DeliverSmResp.h */,
+				BE0D2939217D78140055AE23 /* DestinationAddress.cpp */,
+				BE0D291A217D78120055AE23 /* DestinationAddress.h */,
+				BE0D2904217D78100055AE23 /* DistributionListAddress.cpp */,
+				BE0D291F217D78120055AE23 /* DistributionListAddress.h */,
+				BE0D2907217D78100055AE23 /* EsmClass.cpp */,
+				BE0D2926217D78130055AE23 /* EsmClass.h */,
+				BE0D28F3217D78100055AE23 /* MessageDetails.cpp */,
+				BE0D2902217D78100055AE23 /* MessageDetails.h */,
+				BE0D2929217D78130055AE23 /* NumberingPlanIndicator.cpp */,
+				BE0D2943217D78150055AE23 /* NumberingPlanIndicator.h */,
+				BE0D2920217D78120055AE23 /* optionalParameterTagDef.h */,
+				BE0D2931217D78140055AE23 /* Outbind.cpp */,
+				BE0D2912217D78110055AE23 /* Outbind.h */,
+				BE0D293F217D78150055AE23 /* ParamRetrieve.cpp */,
+				BE0D293C217D78150055AE23 /* ParamRetrieve.h */,
+				BE0D2932217D78140055AE23 /* ParamRetrieveResp.cpp */,
+				BE0D292E217D78130055AE23 /* ParamRetrieveResp.h */,
+				BE0D28F5217D78100055AE23 /* QueryBroadcastSm.cpp */,
+				BE0D2921217D78120055AE23 /* QueryBroadcastSm.h */,
+				BE0D292B217D78130055AE23 /* QueryBroadcastSmResp.cpp */,
+				BE0D2930217D78140055AE23 /* QueryBroadcastSmResp.h */,
+				BE0D2945217D78150055AE23 /* QueryLastMsgs.cpp */,
+				BE0D2949217D78160055AE23 /* QueryLastMsgs.h */,
+				BE0D2942217D78150055AE23 /* QueryLastMsgsResp.cpp */,
+				BE0D2935217D78140055AE23 /* QueryLastMsgsResp.h */,
+				BE0D292F217D78140055AE23 /* QueryMsgDetails.cpp */,
+				BE0D2947217D78160055AE23 /* QueryMsgDetails.h */,
+				BE0D2937217D78140055AE23 /* QueryMsgDetailsResp.cpp */,
+				BE0D28F8217D78100055AE23 /* QueryMsgDetailsResp.h */,
+				BE0D290B217D78110055AE23 /* QuerySm.cpp */,
+				BE0D2917217D78120055AE23 /* QuerySm.h */,
+				BE0D2938217D78140055AE23 /* QuerySmResp.cpp */,
+				BE0D28FA217D78100055AE23 /* QuerySmResp.h */,
+				BE0D291E217D78120055AE23 /* ReplaceSm.cpp */,
+				BE0D294A217D78160055AE23 /* ReplaceSm.h */,
+				BE0D2941217D78150055AE23 /* SmeAddress.cpp */,
+				BE0D292C217D78130055AE23 /* SmeAddress.h */,
+				BE0D28F1217D78100055AE23 /* SmeOrDlAddress.cpp */,
+				BE0D291B217D78120055AE23 /* SmeOrDlAddress.h */,
+				BE0D2901217D78100055AE23 /* SmppBody.cpp */,
+				BE0D28FD217D78100055AE23 /* SmppBody.h */,
+				BE0D28FC217D78100055AE23 /* SmppHeader.cpp */,
+				BE0D2916217D78120055AE23 /* SmppHeader.h */,
+				BE0D28FE217D78100055AE23 /* SmppPdu.cpp */,
+				BE0D2918217D78120055AE23 /* SmppPdu.h */,
+				BE0D293D217D78150055AE23 /* SmppUtilities.cpp */,
+				BE0D2905217D78100055AE23 /* SmppUtilities.h */,
+				BE0D2911217D78110055AE23 /* SubmitMulti.cpp */,
+				BE0D290A217D78110055AE23 /* SubmitMulti.h */,
+				BE0D2908217D78110055AE23 /* SubmitMultiResp.cpp */,
+				BE0D294B217D78160055AE23 /* SubmitMultiResp.h */,
+				BE0D294C217D78160055AE23 /* SubmitSm.cpp */,
+				BE0D2915217D78110055AE23 /* SubmitSm.h */,
+				BE0D294D217D78160055AE23 /* SubmitSmResp.cpp */,
+				BE0D292D217D78130055AE23 /* SubmitSmResp.h */,
+				BE0D291C217D78120055AE23 /* TagLengthValue.cpp */,
+				BE0D2944217D78150055AE23 /* TagLengthValue.h */,
+				BE0D2923217D78130055AE23 /* TypeOfNumber.cpp */,
+				BE0D2925217D78130055AE23 /* TypeOfNumber.h */,
+				BE0D293E217D78150055AE23 /* UnsuccessSme.cpp */,
+				BE0D290E217D78110055AE23 /* UnsuccessSme.h */,
+			);
+			path = smpp;
+			sourceTree = "<group>";
+		};
+		BE0D297A217D789C0055AE23 /* types */ = {
+			isa = PBXGroup;
+			children = (
+				BE0D297E217D78BA0055AE23 /* UnsignedByte.cpp */,
+				BE0D297B217D78BA0055AE23 /* UnsignedByte.h */,
+				BE0D297C217D78BA0055AE23 /* UnsignedInteger.cpp */,
+				BE0D297D217D78BA0055AE23 /* UnsignedInteger.h */,
+			);
+			path = types;
+			sourceTree = "<group>";
+		};
+		BE0D2981217D78C60055AE23 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BE0D2985217D78E10055AE23 /* endianSwap.cpp */,
+				BE0D2982217D78E00055AE23 /* endianSwap.h */,
+				BE0D2983217D78E00055AE23 /* numofprocessors.c */,
+				BE0D2984217D78E10055AE23 /* numOfProcessors.h */,
+			);
+			path = utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +401,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0D2967217D78160055AE23 /* QueryMsgDetails.cpp in Sources */,
+				BE0D2959217D78160055AE23 /* DistributionListAddress.cpp in Sources */,
+				BE0D2971217D78160055AE23 /* ParamRetrieve.cpp in Sources */,
 				BE0D28E9217D77A80055AE23 /* main.cpp in Sources */,
+				BE0D2980217D78BA0055AE23 /* UnsignedByte.cpp in Sources */,
+				BE0D2966217D78160055AE23 /* QueryBroadcastSmResp.cpp in Sources */,
+				BE0D2962217D78160055AE23 /* TagLengthValue.cpp in Sources */,
+				BE0D2950217D78160055AE23 /* BindRespDummy.cpp in Sources */,
+				BE0D2961217D78160055AE23 /* BroadcastSmResp.cpp in Sources */,
+				BE0D2960217D78160055AE23 /* CancelSm.cpp in Sources */,
+				BE0D294E217D78160055AE23 /* SmeOrDlAddress.cpp in Sources */,
+				BE0D296E217D78160055AE23 /* CommandStatus.cpp in Sources */,
+				BE0D2968217D78160055AE23 /* Outbind.cpp in Sources */,
+				BE0D2973217D78160055AE23 /* QueryLastMsgsResp.cpp in Sources */,
+				BE0D2958217D78160055AE23 /* BroadcastSm.cpp in Sources */,
+				BE0D2952217D78160055AE23 /* BindDummy.cpp in Sources */,
+				BE0D2976217D78160055AE23 /* DataSm.cpp in Sources */,
+				BE0D2986217D78E10055AE23 /* numofprocessors.c in Sources */,
+				BE0D2969217D78160055AE23 /* ParamRetrieveResp.cpp in Sources */,
+				BE0D2964217D78160055AE23 /* TypeOfNumber.cpp in Sources */,
+				BE0D2972217D78160055AE23 /* SmeAddress.cpp in Sources */,
+				BE0D2963217D78160055AE23 /* ReplaceSm.cpp in Sources */,
+				BE0D295A217D78160055AE23 /* EsmClass.cpp in Sources */,
+				BE0D296D217D78160055AE23 /* DestinationAddress.cpp in Sources */,
+				BE0D296C217D78160055AE23 /* QuerySmResp.cpp in Sources */,
+				BE0D2987217D78E10055AE23 /* endianSwap.cpp in Sources */,
+				BE0D2953217D78160055AE23 /* SmppHeader.cpp in Sources */,
+				BE0D295D217D78160055AE23 /* QuerySm.cpp in Sources */,
+				BE0D2957217D78160055AE23 /* SmppBody.cpp in Sources */,
+				BE0D2965217D78160055AE23 /* NumberingPlanIndicator.cpp in Sources */,
+				BE0D2978217D78160055AE23 /* SubmitSmResp.cpp in Sources */,
+				BE0D2954217D78160055AE23 /* SmppPdu.cpp in Sources */,
+				BE0D296A217D78160055AE23 /* DeliverSmResp.cpp in Sources */,
+				BE0D2977217D78160055AE23 /* SubmitSm.cpp in Sources */,
+				BE0D2975217D78160055AE23 /* CommandId.cpp in Sources */,
+				BE0D294F217D78160055AE23 /* MessageDetails.cpp in Sources */,
+				BE0D297F217D78BA0055AE23 /* UnsignedInteger.cpp in Sources */,
+				BE0D2970217D78160055AE23 /* UnsuccessSme.cpp in Sources */,
+				BE0D2956217D78160055AE23 /* DeliverSm.cpp in Sources */,
+				BE0D2955217D78160055AE23 /* AlertNotification.cpp in Sources */,
+				BE0D296F217D78160055AE23 /* SmppUtilities.cpp in Sources */,
+				BE0D2951217D78160055AE23 /* QueryBroadcastSm.cpp in Sources */,
+				BE0D295B217D78160055AE23 /* SubmitMultiResp.cpp in Sources */,
+				BE0D296B217D78160055AE23 /* QueryMsgDetailsResp.cpp in Sources */,
+				BE0D295C217D78160055AE23 /* CancelBroadcastSm.cpp in Sources */,
+				BE0D295F217D78160055AE23 /* SubmitMulti.cpp in Sources */,
+				BE0D2974217D78160055AE23 /* QueryLastMsgs.cpp in Sources */,
+				BE0D295E217D78160055AE23 /* DataSmResp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +571,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7NW9X8A684;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"MACOS=1",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -250,6 +584,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7NW9X8A684;
+				GCC_PREPROCESSOR_DEFINITIONS = "MACOS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
