@@ -1,0 +1,18 @@
+---
+description: Keep SRD, SDD, and AGENTS.md updated whenever requirements, design, or pertinent facts change, to avoid rework.
+alwaysApply: true
+---
+
+# Documentação viva (SRD, SDD, agent)
+
+Sempre manter o SRD e o SDD atualizados. Sempre atualizar o agent (`AGENTS.md`) quando alguma informação pertinente for dita, para evitar retrabalho.
+
+Antes de implementar, ler `docs/SRD.md`, `docs/SDD.md` e a seção Memória de `AGENTS.md`.
+
+Na mesma sessão em que o fato aparecer:
+
+- requisito ou status de requisito → `docs/SRD.md` (versão + histórico)
+- desenho, fluxo, classe, dívida técnica → `docs/SDD.md` (versão + histórico)
+- preferência, restrição operacional, fato que evitaria retrabalho → `AGENTS.md` Memória
+
+Não reperguntar o que já está nesses arquivos. Não tratar `main.cpp` como gateway; o encode de body ainda não existe.
